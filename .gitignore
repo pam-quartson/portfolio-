@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Local env
+.env
+.env.local
+*.local
+
+# Editor / OS
+.DS_Store
+.Rhistory
