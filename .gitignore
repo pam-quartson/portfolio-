@@ -16,3 +16,5 @@ test-results/
 # Editor / OS
 .DS_Store
 .Rhistory
+.vercel
+.env*
