@@ -303,6 +303,8 @@ export function SystemsJourney() {
           activeSection={activeSection}
           onSelect={scrollTo}
           personName={profile.name}
+          personTitle={profile.title}
+          personSubtitle="Data & AI Systems"
           footerLinks={sidebarLinks}
         />
 
@@ -343,7 +345,7 @@ export function SystemsJourney() {
             <SectionHeader
               no="I"
               title="About"
-              intro="The short version of who Pamela is and how to reach her."
+              intro="Who she is and how to reach her."
             />
 
             <div className="grid md:grid-cols-[2fr_1px_1fr] bg-card border border-foreground/12">
@@ -465,7 +467,7 @@ export function SystemsJourney() {
             <SectionHeader
               no="II"
               title="Skills"
-              intro="Tools and disciplines used in production, grouped by where they sit in the stack."
+              intro="Production tools and disciplines, organized by stack layer."
             />
             <div className="columns-1 sm:columns-2 gap-4 [column-fill:_balance]">
               {skillGroups.map((group) => (
@@ -495,7 +497,7 @@ export function SystemsJourney() {
             <SectionHeader
               no="III"
               title="Experience"
-              intro="Five years across data engineering, cloud-native backends, and applied research, owning systems end to end and leading teams."
+              intro="Five years of software engineering across backend systems, data infrastructure, and AI research."
             />
             <div className="space-y-8">
               {experience.map((role) => (
@@ -511,7 +513,7 @@ export function SystemsJourney() {
             <SectionHeader
               no="IV"
               title="Projects"
-              intro="Academic and independent work where the goal was to push on a hard technical question, separate from paid engagements."
+              intro="Academic and personal projects tackling hard technical questions, separate from the day job."
             />
             <div className="space-y-8">
               {projects.map((project) => (

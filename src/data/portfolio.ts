@@ -36,16 +36,16 @@ export const contact: Contact = {
 
 export const profile = {
   name: "Pamela Quartson",
-  title: "Data Engineer",
+  title: "Software Engineer",
   location: "Berkeley, CA",
-  tagline: "Data Engineer · UC Berkeley MIMS '26 · Systems Builder",
+  tagline: "Software Engineer · UC Berkeley MIMS · Data & AI Systems",
   summary:
-    "Data engineer and full-stack developer who builds automated ELT pipelines, integrates third-party APIs, and ships production data systems across cloud environments. Comfortable owning a data workflow end to end, from schema design and ingestion through transformation, validation, monitoring, and deployment.",
+    "Software engineer who has built production backends, data pipelines, real-time dashboards, and AI systems from scratch. She takes projects from schema design through deployment and monitoring, and has led small engineering teams along the way.",
   about: [
-    "Pamela Quartson is a data engineer graduating from UC Berkeley (Master of Information Management and Systems, Applied Data Science certificate) in May 2026.",
-    "She builds ELT pipelines, automated data-quality systems, and knowledge-graph retrieval, owning data systems end to end across structured and unstructured sources. Her experience spans cloud-native backend engineering, real-time analytics, and applied AI/ML.",
-    "She has led a 3-person engineering team on UC Berkeley's carbon registry, partnered with US Treasury researchers to turn ML predictions into policy, and built production systems for micro-merchants in Ghana's informal trade sector.",
-    "Currently seeking data or systems engineering roles at teams solving hard technical problems.",
+    "Pamela Quartson is a software engineer with a master's from UC Berkeley's School of Information and a certificate in Applied Data Science.",
+    "She builds production software: backends, REST APIs, full-stack applications, data infrastructure, and AI systems. She handles the full lifecycle from design and schema through deployment and monitoring.",
+    "She's led a 3-person engineering team on UC Berkeley's carbon offset registry, worked with US Treasury researchers to translate ML predictions into policy, and built production systems for micro-merchants in Ghana.",
+    "Currently looking for software engineering roles (SWE, data engineering, or ML/AI) at teams working on hard technical problems.",
   ],
 } as const;
 
@@ -107,7 +107,7 @@ export const experience: ExperienceRole[] = [
   },
   {
     id: "ppic",
-    role: "Web Developer",
+    role: "AI Developer",
     org: "UC Berkeley Goldman School of Public Policy",
     orgNote: "AI chatbot for the Public Policy Institute of California (PPIC).",
     start: "Jun 2025",
@@ -284,29 +284,6 @@ export const skillGroups: SkillGroup[] = [
     items: ["Python", "SQL", "JavaScript / TypeScript", "PHP", "Java", "R", "C++"],
   },
   {
-    category: "Data Engineering",
-    items: [
-      "ELT Pipelines",
-      "Data Validation",
-      "Data Quality Monitoring",
-      "Schema Design",
-      "Third-party API Integration",
-    ],
-  },
-  {
-    category: "AI / ML & Semantic",
-    items: [
-      "RAG",
-      "GraphRAG",
-      "LangChain",
-      "ChromaDB",
-      "Memgraph",
-      "Knowledge Graphs",
-      "CrewAI",
-      "Amazon Bedrock",
-    ],
-  },
-  {
     category: "Frameworks & Tools",
     items: [
       "Node.js",
@@ -324,6 +301,29 @@ export const skillGroups: SkillGroup[] = [
   {
     category: "Cloud & Infrastructure",
     items: ["GCP", "AWS", "Docker", "Kubernetes", "REST APIs", "DevOps"],
+  },
+  {
+    category: "AI / ML & Semantic",
+    items: [
+      "RAG",
+      "GraphRAG",
+      "LangChain",
+      "ChromaDB",
+      "Memgraph",
+      "Knowledge Graphs",
+      "CrewAI",
+      "Amazon Bedrock",
+    ],
+  },
+  {
+    category: "Data Engineering",
+    items: [
+      "ELT Pipelines",
+      "Data Validation",
+      "Data Quality Monitoring",
+      "Schema Design",
+      "Third-party API Integration",
+    ],
   },
 ];
 

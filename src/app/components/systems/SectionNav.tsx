@@ -252,6 +252,8 @@ interface DesktopSectionSidebarProps {
   activeSection: string;
   onSelect: (id: string) => void;
   personName: string;
+  personTitle: string;
+  personSubtitle: string;
   footerLinks: { label: string; href: string; download?: string; icon?: React.ReactNode }[];
 }
 
@@ -264,6 +266,8 @@ export function DesktopSectionSidebar({
   activeSection,
   onSelect,
   personName,
+  personTitle,
+  personSubtitle,
   footerLinks,
 }: DesktopSectionSidebarProps) {
   return (
@@ -280,9 +284,9 @@ export function DesktopSectionSidebar({
             {personName}
           </p>
           <Mono className="text-muted-foreground leading-relaxed block">
-            Data Engineer
+            {personTitle}
             <br />
-            Systems &amp; Infrastructure
+            {personSubtitle}
           </Mono>
         </div>
 
